@@ -38,5 +38,11 @@ git status
 #Fazer um commit
 git add .
 git commit -m "1 commit"
-git push origin master
+git push -u origin main
+git push origin main
 
+git remote add origin endereço
+git remote add origin https://github.com/RommelLima/Django1.git
+
+#Listar branchs
+git branchs -v
