@@ -8,8 +8,8 @@ class PostAdmin(admin.ModelAdmin):
     search_fields = ['title', 'sub_title']
     #Fields = ('title', 'sub_title')
 
-    def get_queryset(self, request):
-        return Post.objects.filter(deleted=False)
+    #def get_queryset(self, request):
+    #    return Post.objects.filter(deleted=False)
 
 admin.site.register(Post, PostAdmin)
 
